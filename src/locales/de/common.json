@@ -1,0 +1,13 @@
+{
+  "HEADLINE": "Willkommen zur Frontend-Challenge!",
+  "GREETING": "Vielen Dank, dass du dir Zeit für diese Challenge nimmst. Deine Aufgabe ist es, eine Event-Listenseite mit React zu erstellen.",
+  "INFO": "Alle Details und Anforderungen findest du in der <a>README</a>-Datei. Viel Glück und frohes Programmieren!",
+  "METAL_FESTIVALS": "Metal Festivals",
+  "SEARCH_FESTIVALS": "Festivals suchen...",
+  "ERROR_LOADING": "Fehler beim Laden der Daten",
+  "NO_FESTIVALS_FOUND": "Keine Festivals gefunden",
+  "DATE_NA": "Nicht verfügbar",
+  "DATE_INVALID": "Ungültiges Datum",
+  "DATE_RANGE_INVALID": "Ungültiger Datumsbereich",
+  "ERROR": "Fehler"
+} 
