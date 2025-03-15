@@ -1,3 +1,4 @@
+import { MantineProvider } from '@mantine/core';
 import { render, screen } from '@testing-library/react';
 import { FestivalType } from '../../api/generated/apiSchemas';
 import { FestivalList } from './index';
@@ -35,10 +36,12 @@ describe('FestivalList Component', () => {
 
   test('renders a list of festivals', () => {
     render(
-      <FestivalList
-        festivals={mockFestivals}
-        onFestivalClick={mockOnFestivalClick}
-      />
+      <MantineProvider>
+        <FestivalList
+          festivals={mockFestivals}
+          onFestivalClick={mockOnFestivalClick}
+        />
+      </MantineProvider>
     );
 
     // Check if festival names are displayed
@@ -52,7 +55,9 @@ describe('FestivalList Component', () => {
 
   test('renders "No festivals found" when list is empty', () => {
     render(
-      <FestivalList festivals={[]} onFestivalClick={mockOnFestivalClick} />
+      <MantineProvider>
+        <FestivalList festivals={[]} onFestivalClick={mockOnFestivalClick} />
+      </MantineProvider>
     );
 
     expect(screen.getByText('No festivals found')).toBeInTheDocument();
