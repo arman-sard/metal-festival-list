@@ -56,7 +56,7 @@ Welcome to the frontend challenge! In this task, your goal is to create a simple
 
 ## Scope:
 
-This challenge should take **about 4 hours** to complete. Don't worry if you don’t finish everything—focus on giving us insight into how you work.
+This challenge should take **about 4 hours** to complete. Don't worry if you don't finish everything—focus on giving us insight into how you work.
 
 ## Submission:
 
